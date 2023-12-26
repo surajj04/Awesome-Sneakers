@@ -1,0 +1,350 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="assets/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="assets/index-VwwikCQN.css">
+    <title>Awesome Sneakers</title>
+</head>
+
+<body>
+    <!-- Desktop Menu -->
+    <nav class="flex justify-around bg-black text-white py-4 max-sm:hidden">
+        <div class="logo flex">
+            <p class="logo-font text-2xl">Awesome Sneakers</p>
+        </div>
+
+        <div class="font-sans text-sm my-auto">
+            <ul class="flex space-x-8">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="shop.html">Shop</a></li>
+                <li><a href="aboutus.html">About us</a></li>
+                <li><a href="customerservice.html">Customer Service</a></li>
+            </ul>
+        </div>
+
+        <div class="flex space-x-4">
+            <div class="flex text-sm">
+                <a href="#"><img class="w-8" src="assets/login-icon-bXjbzb05.png" alt=""></a>
+                <p class="my-auto mx-2 text-yellow-400">Log In</p>
+            </div>
+            <a href="#"><img class="w-8" src="assets/cart-9T0yV2x-.png" alt=""></a>
+        </div>
+    </nav>
+
+    <!-- Phone Menu -->
+    <nav class="hidden justify-around bg-black text-white py-4 max-sm:flex">
+        <div class="logo flex">
+            <p class="logo-font text-sm my-auto">Awesome Sneakers</p>
+        </div>
+
+        <div class="text-white">
+            <button onclick="changeMenu()" class="border border-white py-1 px-2 rounded-md text-sm">Menu</button>
+        </div>
+    </nav>
+
+    <div class="phone-menu hidden bg-black text-white p-3">
+        <div class="font-sans text-sm my-auto">
+            <ul class="space-y-3">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="shop.html">Shop</a></li>
+                <li><a href="aboutus.html">About AS</a></li>
+                <li><a href="customerservice.html">Customer Service</a></li>
+            </ul>
+        </div>
+        <div class="block my-4">
+            <div class="flex text-sm">
+                <a href="#"><img class="w-8" src="assets/login-icon-bXjbzb05.png" alt=""></a>
+                <p class="my-auto mx-2 text-yellow-400">Log In</p>
+            </div>
+            <div class="flex text-sm my-3">
+                <a href="#"><img class="w-8" src="assets/cart-9T0yV2x-.png" alt=""></a>
+                <p class="my-auto mx-2 text-yellow-400">Cart</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Home -->
+
+    <div
+        class="bg-[url('img\banner-awesome-sneakers.jpg')] h-[520px] bg-center bg-no-repeat bg-cover relative max-sm:h-[300px]">
+        <div class="absolute inset-y-52 max-xl:left-20 max-2xl:left-72  max-md:left-60  max-sm:inset-20 max-sm:left-3">
+            <p class="logo-font text-5xl max-sm:text-xl text-center">Awesome Sneakers</p>
+            <div class="text-center my-6 max-sm:my-2">
+                <button class="bg-yellow-400 py-[5px] px-4  rounded-md max-sm:text-xs hover:bg-yellow-300 text-lg">Shop
+                    Now</button>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- category -->
+    <div class="grid grid-cols-2">
+        <a href="#">
+            <div
+                class="bg-[url('img/mens-sneakers.jpg')] h-[600px] max-sm:h-[250px] bg-center bg-no-repeat bg-cover relative">
+                <div
+                    class="absolute inset-y-36 max-2xl:left-[20rem] text-3xl rotate-90  max-sm:left-[-1.5rem] max-lg:left-[4.5rem] max-sm:rotate-90 max-sm:inset-y-0 max-sm:text-lg max-xl:left-[12rem] font-extrabold">
+                    MEN'S COLLECTION
+                </div>
+            </div>
+        </a>
+        <a href="#">
+            <div
+                class="bg-[url('img\womens-senakers.jpg')] h-[600px] max-sm:h-[250px] bg-center bg-no-repeat bg-cover relative">
+                <div
+                    class="absolute inset-y-4 max-2xl:left-28 text-3xl rotate-90 max-sm:left-[-2rem] max-lg:left-[-6rem]  sm:rotate-90 sm:inset-y-0 max-sm:text-lg max-xl:left-[2rem] font-extrabold">
+                    WOMEN'S COLLECTION
+                </div>
+            </div>
+        </a>
+    </div>
+
+    <!-- Offer section -->
+    <div class="grid grid-cols-2 max-sm:block">
+        <div
+            class="bg-gradient-to-r from-gray-800 via-red-700 to-gray-900 grid grid-cols-1 content-center text-center max-sm:py-8">
+            <p class="text-2xl text-white max-sm:text-sm">SALE IS ON!</p>
+            <h2 class="text-8xl font-bold my-4 text-white max-sm:text-4xl">30% OFF</h2>
+            <p>
+                <button class="border border-white px-4 py-1 text-white rounded-md hover:bg-white hover:text-black">SHOP
+                    SALE</button>
+            </p>
+        </div>
+        <div class="">
+            <img src="assets/sale-banner-img-LNkyfhNH.jpg" alt="">
+        </div>
+    </div>
+
+    <!-- Shoes -->
+    <div class="grid grid-cols-3 my-10 max-sm:grid-cols-2">
+        <div class="w-2/4 mx-auto ">
+            <ul role="list">
+                <li class="group/item  ...">
+                    <img class="hover:animate-bounce my-4" src="assets/Black_Men_Shoes-a3kQBxh1.png" alt="">
+                    <div>    
+                        <button onclick="showDetails(0)" class="group/edit invisible hover:bg-red-200 group-hover/item:visible group-hover/edit:text-gray-200 text-center bg-red-600 text-white w-4/5 mx-auto py-2 font-bold max-sm:text-xs" type="button">View Details</button>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <div class="w-2/4 mx-auto ">
+            <ul role="list">
+                <li class="group/item  ...">
+                    <img class="hover:animate-bounce my-4" src="assets/dance-shoes-hlKcu2SX.png" alt="">
+                    <div>    
+                        <button onclick="showDetails(1)" class="group/edit invisible hover:bg-red-200 group-hover/item:visible group-hover/edit:text-gray-200 text-center bg-red-600 text-white w-4/5 mx-auto py-2 font-bold max-sm:text-xs" type="button">View Details</button>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <div class="w-2/4 mx-auto">
+            <ul role="list">
+                <li class="group/item  ...">
+                    <img class="hover:animate-bounce my-4" src="assets/nike-ZuojQIw0.png" alt="">
+                    <div>    
+                        <button onclick="showDetails(2)" class="group/edit invisible hover:bg-red-200 group-hover/item:visible group-hover/edit:text-gray-200 text-center bg-red-600 text-white w-4/5 mx-auto py-2 font-bold max-sm:text-xs" type="button">View Details</button>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <div class="w-2/4 mx-auto">
+            <ul role="list">
+                <li class="group/item  ...">
+                    <img class="hover:animate-bounce my-4" src="assets/running-shoes-R9ImIyhn.png" alt="">
+                    <div>    
+                        <button onclick="showDetails(3)" class="group/edit invisible hover:bg-red-200 group-hover/item:visible group-hover/edit:text-gray-200 text-center bg-red-600 text-white w-4/5 mx-auto py-2 font-bold max-sm:text-xs" type="button">View Details</button>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <div class="w-2/4 mx-auto">
+            <ul role="list">
+                <li class="group/item  ...">
+                    <img class="hover:animate-bounce my-4" src="assets/sneakers-yolgBcoN.png" alt="">
+                    <div>    
+                        <button onclick="showDetails(4)" class="group/edit invisible hover:bg-red-200 group-hover/item:visible group-hover/edit:text-gray-200 text-center bg-red-600 text-white w-4/5 mx-auto py-2 font-bold max-sm:text-xs" type="button">View Details</button>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <div class="w-2/4 mx-auto">
+            <ul role="list">
+                <li class="group/item  ...">
+                    <img class="hover:animate-bounce my-4" src="assets/sports-O2J3eaI4.png" alt="">
+                    <div>    
+                        <button onclick="showDetails(5)" class="group/edit invisible hover:bg-red-200 group-hover/item:visible group-hover/edit:text-gray-200 text-center bg-red-600 text-white w-4/5 mx-auto py-2 font-bold max-sm:text-xs" type="button">View Details</button>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+
+    <!-- focus:outline-none p-2 bg-red-600 text-white bg-opacity-75 rounded-lg ring-4 ring-red-300 -->
+    
+    
+    <div id="modal"
+        class="fixed top-0 left-0 w-screen h-screen flex items-center justify-center bg-gray-500 bg-opacity-50 transform scale-0 transition-transform duration-300">
+        <!-- Modal content -->
+        <div class="bg-white w-4/5 h-screen p-12" id="overflowTest"> 
+            <!--Close modal button-->
+            <button onclick="closebtn()" type="button" class="focus:outline-none">
+                <!-- Hero icon - close button -->
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24"
+                    stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                        d="M10 14l2-2m0 0l2-2m-2 2l-2-2m2 2l2 2m7-2a9 9 0 11-18 0 9 9 0 0118 0z" />
+                </svg>
+            </button>
+            <!-- Test content -->
+            <div class="">
+                <div class="grid grid-cols-2 mx-auto w-4/5 my-10 max-sm:block">
+                    <div class="bg-gray-200 grid grid-cols-1 content-center max-sm:block">
+                        <img id="img-src" class="w-3/4 mx-auto max-sm:p-10" src="assets/Black_Men_Shoes-a3kQBxh1.png" alt="">
+                    </div>
+                    <div class="mx-10 max-sm:mx-0 max-sm:my-8">
+                        <h2 class="text-3xl" id="product-name">I'm a Product</h2>
+                        <p class="font-bold my-4" id="product-price">$145.00</p>
+                        <div class="">
+                            <label class="font-bold text-gray-600" for="size">Size</label>
+                            <select class="block my-2 w-full py-[6px] px-2 border border-gray-800 rounded-md" name="size" id="">
+                                <option value="">Select</option>
+                                <option value="">7</option>
+                                <option value="">8</option>
+                                <option value="">9</option>
+                                <option value="">10</option>
+                            </select>
+                        </div>
+                        <div class="">
+                            <label class="font-bold text-gray-600" for="size">Color : <span
+                                    class="font-normal">Black</span></label>
+                            <div class="bg-black w-6 rounded-full my-2 cursor-pointer mx-2">@</div>
+                        </div>
+                        <div class="">
+                            <label class="font-bold text-gray-600" for="size">Quantity</label>
+                            <div class="my-2">
+                                <input class="border border-gray-800 px-2 py-1 w-20" type="number" placeholder="Quantity"
+                                    value="1">
+                            </div>
+                        </div>
+        
+                        <div class="my-4">
+                            <button class="block bg-red-600 text-white w-4/5 my-2 px-2 py-2">Add to cart</button>
+                            <button class="block bg-black text-white w-4/5 my-2 px-2 py-2">Buy Now</button>
+                        </div>
+                    </div>
+                    <div class="my-4">
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deserunt, aut voluptates adipisci doloremque
+                        aspernatur
+                    </div>
+                    <div class="my-4 mx-10 max-sm:mx-0">
+                        <div class="flex justify-between">
+                            <h2 class="text-xl font-bold">PRODUCT INFO</h2>
+                            <button class="text-xl" id="info-btn" onclick="showText(true)">-</button>
+                        </div>
+                        <p class="my-4" id="info">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Unde provident
+                            dolorum at
+                            voluptatem sapiente blanditiis repellendus perferendis doloremque quaerat nam illo eveniet
+                            reiciendis, ipsum quibusdam ullam distinctio, repudiandae eum officia quas explicabo cumque! Cumque
+                            non aliquid aut quas similique, sed numquam harum! Harum commodi sapiente soluta porro atque at,
+                            dignissimos dolor eveniet aliquam quasi ipsa,</p>
+                        <hr class="bg-gray-700 h-[2px] my-4">
+                        <div class="flex justify-between">
+                            <h2 class="text-xl font-bold my-4">RETURN AND REFUND POLICY</h2>
+                            <button class="text-xl" id="policy-btn" onclick="showText(false)">-</button>
+                        </div>
+                        <p class="" id="policy">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Unde provident dolorum
+                            at
+                            voluptatem sapiente blanditiis repellendus perferendis doloremque quaerat nam illo eveniet
+                            reiciendis, ipsum quibusdam ullam distinctio, repudiandae eum officia quas explicabo cumque! Cumque
+                            non aliquid aut quas similique, sed numquam harum! Harum commodi sapiente soluta porro atque at,
+                            dignissimos dolor eveniet aliquam quasi ipsa,</p>
+                        <div class="flex mt-8">
+                            <img class="w-5 mx-2 cursor-pointer"
+                                src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/WhatsApp_icon.png/598px-WhatsApp_icon.png"
+                                alt="">
+                            <img class="w-5 mx-2 cursor-pointer"
+                                src="https://upload.wikimedia.org/wikipedia/commons/6/6c/Facebook_Logo_2023.png" alt="">
+                            <img class="w-5 mx-2 cursor-pointer"
+                                src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Logo_of_Twitter.svg/512px-Logo_of_Twitter.svg.png"
+                                alt="">
+        
+                            <img class="w-5 mx-2 cursor-pointer"
+                                src="https://upload.wikimedia.org/wikipedia/commons/0/08/Pinterest-logo.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Footer -->
+
+    <footer>
+
+        <div class="bg-black pt-10 text-white">
+            <p class="logo-font text-5xl max-sm:text-2xl text-center">Awesome Sneakers</p>
+        </div>
+        <div class="grid grid-cols-2 py-8 text-white bg-black  px-10 max-sm:block">
+            <div class="w-3/4">
+                <h2 class="text-2xl max-sm:text-xl">ADDRESS</h2>
+                <p class="max-sm:text-sm max-sm:my-2">Shop No 30, Shriram Chs, Old Agra Rd, Shirin Baug, Nr Makhamali
+                    Talao, Thane (west)</p>
+            </div>
+            <div class="max-sm:my-10">
+                <h2 class="text-2xl max-sm:text-xl ">CONTACT US</h2>
+                <form action="">
+                    <div class="grid grid-cols-2 w-3/4 max-sm:w-full max-sm:block">
+                        <div class="">
+                            <input class="bg-black text-white border border-gray-200 rounded-md px-2 my-2" type="text"
+                                placeholder="Name">
+                            <input class="bg-black text-white border border-gray-200 rounded-md px-2 my-2" type="email"
+                                placeholder="Email">
+                            <input class="bg-black text-white border border-gray-200 rounded-md px-2 my-2" type="number"
+                                placeholder="Phone">
+                        </div>
+                        <div class="max-sm:my-2">
+                            <textarea class=" bg-black p-2 border border-gray-200 w-full h-28 my-2" name="" id=""
+                                cols="40" rows="10" placeholder="Type Your Text here...."></textarea>
+                            <button class="px-2 py-1 rounded-md bg-yellow-400 text-black" type="submit">Submit</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div class="">
+                <h2 class="text-2xl max-sm:text-xl">STAY IN TOUCH</h2>
+                <div class="flex flex-col w-2/3 max-sm:text-sm">
+                    <p>Join our mailing list</p>
+                    <input class="bg-black text-white border border-gray-200 rounded-md px-2 py-1 my-2 max-sm:my-4"
+                        type="email" placeholder="Enter your mail">
+                    <button class="px-2 py-1 rounded-md bg-yellow-400 text-black" type="submit">Subscribe Now</button>
+                </div>
+            </div>
+
+            <div class="grid grid-cols-3 gap-6 w-48 mx-auto mt-20 max-sm:mx-0  max-sm:mt-10">
+                <img class="cursor-pointer max-sm:w-10"
+                    src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAQAAAAEACAMAAABrrFhUAAAACXBIWXMAAAsTAAALEwEAmpwYAAABcVBMVEVHcEz////////////////////////////////+/v7////////////////////////////+/v7////////+/v7+/v7////+/v7////////+/v7////////////////////+/v7////////////////////////////////////////////////////////////////////////////////////+/v7+/v7////////+/v7////////////////////+/v7////////+/v7+/v7////////+/v7+/v7////+/v7+/v7+/v7////////////////////////////+/v7////////////////+/v7+/v7////+/v7////////////////////////+/v7////////////////////////////+/v7////////////+/v7+/v7////+/v7////+/v7+/v7+/v7////////////+/v7u1wdOAAAAeXRSTlMAc6Q1DSuSiHZ7+J/xJr9dQlBbIurL27ZATwvj6N3SR+U/Gm5ng2lxlecTRlASWjrFgQVsIwQ85kyPx3AymTzC+kHmwV/MCAest+/Qbhd+5SHGZOrkjQww+Srz/lgBpuklBipisHK1lrpiQxmGye2k5y6p2PHScHtcCd2JzQAABJxJREFUeNrt3YV22zAYBWA57rzNThxmzpiZmZmZmZmnPf066pI2a2TXO6f+770P4Jz7tZElOYmUMkuvbXl+sdRw9SyP2ygVfc9q91R06TodHcN0nG4U7dMtHeO00jNrXynr2KdcCV0/W9AiUsiGqp9LajFJ5gLXT9W1qNRTwfontLgkAtTPaJHJmPZ3tNA4RvVrTS02zdro/nktOvlR/W0tPPb0/atafKrg/acVsDVEbNDxb+RIWNMwGX43bOIANKHmf4ZzwoyGytR1gQYLwPo30Oo4peEyuENSxwOoD+z/acD07xMmEQGSffvfGjJ/d8sLmACFiec/GjR/nhmVUQHKoJPAydPBNC7Ar2fHLVyAFvg74Nd7oIsM0EXbCJmcHxsjHWSADvgQ8GMQ6GED9FQbG6CtLGwAS3nYAJ7ysQF8VcQGKKoSNkBJNbABGsrFBnDBJ4LjU8G4/KU+PHZ2rF65YvPOa3OmyQuJAG8TC+cYf8hVHID/YH2gDznLAlh2PvCn3CUBnLsf4lsOcgC2rAn1NQ8xAJ9Dfs1HCEDyrIIGWBv+e24iAI4pbICjChvgk8IGcG+BA9xV2ABLFTbAVQUOsBUc4KMCBziIDqDAAZaiA6TAAa4rcIBt6AD70AEUOMBFdIA36AAL0AF2RwGwN8YAR4IUfb5o7esbkYy8sbwJzI3wVWMIcPiOlgiwzBhgvxYJ8Mq0/1ctE+ChKcAJoQC3/9utPiYAnmH/5VIBTLeDNkoFuGQIYEsFmGsIsAIdYDU6wEICEAAbYDEBCIANsIEA4AAn0QEWwAN8AwdYoglAAGgAiwBiAAaH812GAIvEAKjI8w4d4Bk6wEt0gPfoAIfQAY6jA2gCYAOcQgdYgw6QRgdYhw6QQAfYjg5wAR1AEwAbYNU3cAAb/T/gJjrAF3QADx1gDzrAGXQATQBsgDF0gCvoACvjB3B5rC+r7hkW3bR8bFjWn44dwKQ8gXs8PimmH5CYRwACEIAABCAAAQhAAAIQgAAEIAABCEAAAhCAAAQgAAEIQAACEIAABCAAAQhAAAIQgAAEIAABCEAAAhCAAAQgAAEIQAACEIAABCAAAQhAAAIQgAAEIAABCEAAAhCAAH0ALjaAqxrYAA1VwgYoqSI2QFH52AB+yF/iFAPgRX10V9wALNXGBmirHjZATylsgPELdpABOuMXdJABnPELdpEBuuF/j1cGwM8rtnABWj+vmMYFSM/kN6klAPy+ZHlWAKwzBIjw8PXy70tWZgXAgUfzTWI9je4lK39QCxoyhYn/qiwmQPbv+yqJ2D/ZN7DkEAFy/UNrHa9/feDeksIDSA3eXRNo/RPRHFES30yZYGWw+memTjEdpP7OsEl2E6d/c+gqo4YDUBu+zsqj9M//a6VpY/S3/73WriL0r06321AF7w/wLrBH7TgJHwnzo/fcaoLnA82a0baj2DmhY3pyndB1QSbA4X0CV8eJYMcXpoTtEdVTgU9wzAnaKU3mQh1imRXyvKCQDX2OZ6Uc//rlyszOMk234ty+lY7iPNeu04lj+Y7TVdGl17Y8v1hquLO9ttsoFX3PavcMi30HVc5vPnUlgiwAAAAASUVORK5CYII="
+                    alt="">
+                <img class="cursor-pointer max-sm:w-10" src="assets/twitter-zKgvToIu.png" alt="">
+                <img class="cursor-pointer max-sm:w-10" src="assets/instagram-AIqyiWlR.png" alt="">
+            </div>
+        </div>
+
+    </footer>
+
+
+
+</body>
+
+<script src="assets/script.js"></script>
+
+</html>
